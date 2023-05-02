@@ -45,7 +45,7 @@ import {
 import Auth from "../../middleware/Auth";
 import API from "../../middleware/Api";
 import FileTag from "./FileTags";
-import { Assignment, Devices, MoreHoriz, Settings } from "@material-ui/icons";
+import { Assignment, Devices, MoreHoriz, Settings, SdStorage } from "@material-ui/icons";
 import Divider from "@material-ui/core/Divider";
 import SubActions from "../FileManager/Navigator/SubActions";
 import {
@@ -458,7 +458,6 @@ class NavbarCompoment extends Component {
                                         />
                                     </ListItem>
                                 )}
-
                                 <ListItem
                                     button
                                     key="任务队列"
@@ -479,12 +478,12 @@ class NavbarCompoment extends Component {
                                     button
                                     key="容量与配额"
                                     onClick={() =>
-                                        window.location.href = "https://app.gestar.cloud/drive"
+                                        window.location.href="https://app.gestar.cloud/drive"
                                     }
                                 >
                                     <ListItemIcon>
-                                        <Assignment
-                                            className = "SdStorage"
+                                        <SdStorage
+                                            className={classes.iconFix}
                                         />
                                     </ListItemIcon>
                                     <ListItemText
