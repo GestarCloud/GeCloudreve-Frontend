@@ -42,6 +42,7 @@
     "remoteDownload": "离线下载",
     "connect": "连接",
     "taskQueue": "任务队列",
+    "storage": "容量与配额",
     "setting": "个人设置",
     "videos": "视频",
     "photos": "图片",
