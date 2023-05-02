@@ -487,7 +487,7 @@ class NavbarCompoment extends Component {
                                         />
                                     </ListItemIcon>
                                     <ListItemText
-                                        primary={t("navbar.storageOptions")}
+                                        primary={t("navbar.quota")}
                                     />
                                 </ListItem>
                                 {pathHelper.isMobile() && (
