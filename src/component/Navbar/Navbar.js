@@ -484,11 +484,11 @@ class NavbarCompoment extends Component {
                                 >
                                     <ListItemIcon>
                                         <Assignment
-                                            className={classes.iconFix}
+                                            className = "SdStorage"
                                         />
                                     </ListItemIcon>
                                     <ListItemText
-                                        primary={t("navbar.storage")}
+                                        primary={t("navbar.storageOptions")}
                                     />
                                 </ListItem>
                                 {pathHelper.isMobile() && (
