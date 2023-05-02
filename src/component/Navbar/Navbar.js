@@ -475,6 +475,22 @@ class NavbarCompoment extends Component {
                                         primary={t("navbar.taskQueue")}
                                     />
                                 </ListItem>
+                                <ListItem
+                                    button
+                                    key="容量与配额"
+                                    onClick={() =>
+                                        window.location.href = "https://app.gestar.cloud/drive"
+                                    }
+                                >
+                                    <ListItemIcon>
+                                        <Assignment
+                                            className={classes.iconFix}
+                                        />
+                                    </ListItemIcon>
+                                    <ListItemText
+                                        primary={t("navbar.storage")}
+                                    />
+                                </ListItem>
                                 {pathHelper.isMobile() && (
                                     <>
                                         <Divider />
